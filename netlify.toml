@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run dev"
+  port = 5173
+
+# Optional: environment variables for Netlify builds can go under [build.environment]
+# [build.environment]
+#   NODE_VERSION = "18"
